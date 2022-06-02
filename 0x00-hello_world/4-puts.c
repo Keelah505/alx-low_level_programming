@@ -2,7 +2,6 @@
 
 
 /**
- *
  *  * puts(0) - Programming is like building a multilingual puzzle
  *
  *   *
@@ -11,7 +10,7 @@
  *
  */
 
-int main(void)
+int puts(void)
 
 {
 
