@@ -3,16 +3,15 @@
 
 /**
  *
+ *   puts(0) - Programming is like building a multilingual puzzle
  *
- *  * puts(0) - Programming is like building a multilingual puzzle
+ *   
  *
- *   *
- *
- *    * Return: Always 0 (Success)
+ *     Return: Always 0 (Success)
  *
  */
 
-int puts(void)
+int main(void)
 
 {
 
