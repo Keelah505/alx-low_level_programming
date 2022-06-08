@@ -1,21 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-*main - write _putchar  to stdout
-*@c: the characteer to print
+* main - program entry point
 *
-*Return: Always 0 (Success)
+* Return : always 0 (success)
 */
+
 int main(void)
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
+	printf("_putchar");
 
 	return (0);
+
 }
