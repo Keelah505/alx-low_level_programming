@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_to_98 - print n to 98
 * @n: integer
@@ -10,12 +11,12 @@ void print_to_98(int n)
 	
 	for (i = n; i<= limit; i++)
 	{
-		printf("%i",i);
+		printf("%i" , i);
 		if (i != limit - 1)
 		{
-			putchar(',');
+			_putchar(',');
 		}
-		putchar(' ');
+		_putchar(' ');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
