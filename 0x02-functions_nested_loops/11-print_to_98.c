@@ -7,16 +7,16 @@
 */
 void print_to_98(int n)
 {
-	int i, limit =98;
+	int i, limit = 98;
 	
-	for (i = n; i<= limit; i++)
+	for (i = n; i <= limit; i++)
 	{
 		printf("%i" , i);
 		if (i != limit - 1)
 		{
-			_putchar(',');
+			putchar(',');
 		}
-		_putchar(' ');
+		putchar(' ');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
