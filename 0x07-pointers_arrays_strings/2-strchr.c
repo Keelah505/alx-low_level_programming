@@ -8,7 +8,7 @@
  * Return: r
  */
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i;
 	int l;
@@ -20,7 +20,7 @@ char *strchr(char *s, char c)
 	for (i = 0; i <= l; i++)
 	{
 		if (s[i] == c)
-			return(&(s[i]));
+			return (&(s[i]));
 	}
 	return (0);
 }
